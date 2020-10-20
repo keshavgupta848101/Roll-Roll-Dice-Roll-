@@ -54,8 +54,13 @@ input{
   width: 100px;
   height: 30px;
   border-radius: 5%;
+  border: none;
+  transition-duration:0.25s;
 }
 input:hover{
   background-color: #045de9;
   background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); 
+}
+input:focus{
+  outline:none; 
 }
